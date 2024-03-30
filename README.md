@@ -15,12 +15,12 @@ import React from 'react';
 import Table from '@arnaud.derison/TableTS';
 
 function Delete(){
-  const handleClik = ()=>{
-    console:log("click");
+  const handleClick = ()=>{
+    console.log("click");
   }
 
   return (
-    <Button onClick={()=>handleClik()}>Delete</Button>
+    <Button onClick={()=>handleClick()}>Delete</Button>
     );
 }
 
